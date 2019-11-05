@@ -1,0 +1,633 @@
+h1, h2, p, span {
+    margin: 0;
+  	padding: 0;
+}
+
+body {
+	width: 100%;
+    height: auto;
+	margin: 0;
+  	padding: 0;
+}
+
+.card {
+	/* stil, ko ko je card povecan ali pomanjsan ali pa sploh nic od tega */
+	display: inline-block;
+	float: left;
+	min-height: 100%;
+    height: auto;
+	width: 31.3333333%;
+	padding-left: 2%;
+	padding-top: 2%;
+}
+
+.card-wrapper {
+    min-height: 100%;
+    height: auto;
+}
+
+.card.expanded {
+	/* stil, ko je card povecan */
+	width: 94%;
+}
+
+.card.collapsed {
+	/* stil, ko je card pomanjsan */
+	width: 0.001%;
+}
+
+#one {
+	background-color: #ff3c00;
+}
+
+#two {
+	background-color: #f721ce;
+}
+
+#three {
+	background-color: #402cff;
+}
+
+.upper {
+	 text-transform: uppercase;
+}
+
+.rocka {
+	cursor: pointer;
+}
+
+.color-change-to-blue:hover {
+	color: #402cff;
+}
+
+.hover-pink:hover {
+	color: #f721ce;
+	cursor: pointer;
+}
+.hover-blue:hover {
+	color: #402cff;
+	cursor: pointer;
+}
+
+.hidden-on-start {
+	display: none;
+}
+
+#words-change {
+	padding: 2%;
+}
+
+#anim-1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100px;
+    color: #ff3c00;
+}
+    
+#anim-2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100px;
+    color: #f721ce;
+}
+
+#anim-3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100px;
+    color: #402cff;
+}
+
+#anim-4 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+}
+
+#anim-final-heading {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+}
+
+.card-title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+}
+
+/* ======================= card 1 ========================= */
+
+.card-1-menu {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+}
+
+.card-1-content {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+}
+
+.mb-s {
+    margin-bottom: 20px;
+}
+
+.mb-m {
+    margin-bottom: 40px;
+}
+
+.mb-l {
+    margin-bottom: 100px;
+}
+
+.random-title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+}
+
+#about-content {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    width: 1500px;
+}
+
+#reference-1-description {
+    font-family: 'Spectral', serif;
+    font-size: 14px;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 970px;
+    top: 50px;
+}
+
+#reference-2-description {
+    font-family: 'Spectral', serif;
+    font-size: 14px;
+    width: 350px;
+    height: auto;
+    position: absolute;
+    left: 1020px;
+    top: 50px;
+}
+
+#reference-3-description {
+    font-family: 'Spectral', serif;
+    font-size: 14px;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 970px;
+    top: 50px;
+}
+/* ======================= card 2 ========================= */
+/* za fotke */
+
+#les-levine {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 1000px;
+}
+
+#les-levine img {
+    width: 100%;
+    height: auto;
+}
+
+#les-levine-ref {
+    font-family: 'Spectral', serif;
+    font-size: 14px;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 1420px;
+    top: 600px;
+}
+
+#labyrinth {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+}
+
+#labyrinth img {
+    width: 100%;
+    height: auto;
+}
+
+#labyrinth-ref {
+    font-family: 'Spectral', serif;
+    font-size: 14px;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+#wiretrap {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+
+#wiretrap-ref {
+    font-family: 'Spectral', serif;
+    font-size: 14px;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 930px;
+    top: 200px;
+}
+
+#wiretrap img {
+    width: 100%;
+    height: auto;
+}
+
+#gerbils {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 1150px;
+    top: 250px;
+}
+
+#gerbils img {
+    width: 100%;
+    height: auto;
+}
+
+#gerbils-ref {
+    font-family: 'Spectral', serif;
+    font-size: 14px;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 1440px;
+    top: 750px;
+}
+
+/* konec fotk */
+
+#exposed-content {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 130px;
+    top: 500px; 
+}
+
+#exposed-title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    left: 500px;
+    top: 350px; 
+}
+
+#informed-title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    left: 550px;
+    top: 470px;
+}
+
+#informed-content-1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 750px;
+    top: 700px;
+}
+
+#informed-content-2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 630px;
+    top: 200px;
+}
+
+#inspired-title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    left: 100px;
+    top: 600px;
+}
+
+#inspired-content-1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 1000px;
+    top: 450px;
+}
+
+#inspired-content-2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 350px;
+    top: 800px;
+}
+
+#hybridized-title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    left: 1300px;
+    top: 150px;
+}
+
+#hybridized-content-1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    width: 950px;
+    position: absolute;
+    top: 230px;
+}
+
+#hybridized-content-2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    width: 1050px;
+    position: absolute;
+    top: 620px;
+    left: 120px;
+}
+
+#multiplied-title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    left: 200px;
+    top: 700px;
+}
+
+#multiplied-content-1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    width: 1200px;
+    position: absolute;
+    left: 150px;
+    top: 300px;
+}
+
+#multiplied-content-2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    width: 1200px;
+    position: absolute;
+    left: 400px;
+    top: 500px;
+}
+
+#multiplied-content-3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    width: 1000px;
+    position: absolute;
+    left: 600px;
+    top: 700px;
+}
+
+#idea-title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    left: 400px;
+    top: 500px;
+}
+
+#idea-content-1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    width: 1200px;
+    position: absolute;
+    left: 150px;
+    top: 300px;
+}
+
+#idea-content-2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    width: 1000px;
+    position: absolute;
+    left: 600px;
+    top: 700px;
+}
+
+#random-content-6 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    left: 900px;
+    top: 700px;
+}
+
+/* ========================= card 2 end ============================= */
+
+.close-card {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    top: 50px;
+    left: 1550px;
+    float: right;
+	cursor: pointer;
+}
+
+.reference {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    top: 50px;
+    left: 1400px;
+    float: right;
+	cursor: pointer;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* ============================ card 3 ============================= */
+
+#third-card-intro {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    width: 1300px;
+}
+
+.third-card-content {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: black;
+}
+
+.third-card-title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: black;
+}
+
+#tradition-h {
+    position: absolute;
+    left: 300px;
+    top: 700px;
+}
+
+#vehicle-text {
+    position: absolute;
+    left: 600px;
+    top: 800px;
+    width: 800px;
+}
+
+#ontologically-text {
+    position: absolute;
+    left:300px;
+    top:1100px;
+    width: 1050px;
+}
+
+#exploratory-text {
+    position: absolute;
+    left: 150px;
+    top: 1300px;
+    width: 900px;
+}
+
+#cognition-h {
+    position: absolute;
+    left: 900px;
+    top: 1550px;
+}
+
+#human-text {
+    position: absolute;
+    left: 400px;
+    top: 1700px;
+}
+
+#essence-text {
+    position: absolute;
+    left: 200px;
+    top: 1950px;
+    width: 1100px;
+}
+
+#criticism-h {
+    position: absolute;
+    left: 600px;
+    top: 2250px;
+}
+
+#approach-text {
+    position: absolute;
+    left: 100px;
+    top: 2350px;
+    width: 900px;
+}
+
+#engaging-text {
+    position: absolute;
+    left: 500px;
+    top: 2600px;
+    width: 1100px;
+}
+
+#interaction-h {
+    position: absolute;
+    left: 200px;
+    top: 2770px;
+}
+
+#understand-text {
+    position: absolute;
+    left: 400px;
+    top: 2850px;
+    width: 900px;
+}
+
+#tools-text {
+    position: absolute;
+    left: 300px;
+    top: 3000px;
+    width: 1200px;
+}
+
+#future-h {
+    position: absolute;
+    left: 900px;
+    top: 3400px;
+}
+
+#age-text {
+    position: absolute;
+    left: 500px;
+    top: 3500px;
+    width: 1100px;
+}
+
+#transformation-text {
+    position: absolute;
+    left: 700px;
+    top: 3700px; 
+    width: 950px;
+    
+}
+
+#aware-text {
+    position: absolute;
+    left: 200px;
+    top: 3870px;
+    width: 1200px;
+}
+
+#learn-more {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    left: 400px;
+    top: 4100px;
+}
+
+/* ========================= card 3 end ============================= */
+
